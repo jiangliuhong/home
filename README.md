@@ -1,57 +1,18 @@
-[![Version](https://img.shields.io/github/package-json/v/dmego/home.github.io)](https://www.npmjs.com/package/dmego-home-page)
-[![Website](https://img.shields.io/website-up-down-green-red/http/i.dmego.cn.svg)](http://i.dmego.cn/)
-[![License](https://img.shields.io/github/license/dmego/home.github.io.svg)](/LICENSE)
-[![Say Thanks](https://img.shields.io/badge/Say-Thanks!-1EAEDB.svg)](https://saythanks.io/to/dmego)
+# Jiangliuhong Personal Home
 
-### 个人主页
+这是个人品牌与作品展示站点。
 
->这是我的个人主页
+## 关于我
 
->衍生自 [Vno](https://github.com/onevcat/vno-jekyll) Jekyll 主题
+一名专注于后端架构、数据平台和 AI Agent 开发的软件工程师。
 
->页面部分加载效果借鉴于 [Mno](https://github.com/mcc108/mno) Ghost 主题
+## 方向
 
->借鉴了[北岛向南的小屋](https://javef.github.io/)的头像样式
+- 企业级后端系统设计
+- 数据平台与指标体系建设
+- AI 辅助开发与 Agent 工程实践
+- 个人产品探索
 
-### 效果图
+## 项目成果
 
->静态图
-
-![主页JPG](https://unpkg.com/dmego-home-page@latest/assets/img/home.jpg)
-
->动态图
-
-![主页GIF](https://unpkg.com/dmego-home-page@latest/assets/img/home.gif)
-
-### 注
-
-- 访问地址：[个人主页](http://i.dmego.cn/)
-- 使用了 [一言](http://hitokoto.cn/) 的 API 服务
-- ~~使用了 [Bing 壁纸 API](https://github.com/xCss/bing/) 服务~~
-- ~~使用了 [Yahoo Query Language (YQL)](https://developer.yahoo.com/yql/) 来解决获取 Bing 壁纸跨域问题~~
-- ~~原先 YQL 服务将被淘汰，现改用 [JsonBird](https://bird.ioliu.cn/)~~
-- 使用 `GitHub Action` 来获取 Bing 壁纸，使用 `JSONP` 获取 Bing 壁纸 URL 文件
-
-### GitHub Action 补充说明
-
-- 利用 `Github Action` 提交代码需要一个 `GitHub API` 令牌, 可以在 [Create Tokens](https://github.com/settings/tokens) 这个地址，点击 `Generate new token` 按钮来创建
-  - `Expiration` 过期时间设置为 `No expiration`
-  - `Select scopes` 勾选 `repo`
-  - 点击 `Generate Token` 生成
-- 在仓库的 `Settings` ——>`Secrets` 功能栏中，点击 `New repository secrets` 按钮
-  -  在 `Name` 框中填写 `GH_TOKEN`
-  - 在 `Secrets` 栏中填写第一步生成的 `Token` 值
-- 详细配置步骤图可以参考《[GitHub Action 配置详细步骤](./ActionNotes.md)》文档
-
-### 更新记录
-- 2022-06-10
-  - 发布 NPM 包，使用 UNPKG 作为资源文件的 CDN 
-- 2023-02-27
-  - 添加《GitHub Action 配置详细步骤》文档
-- 2023-04-12
-  - 移除 Jquery 依赖，使用原生 JS
-
-### Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=dmego/home.github.io&type=Date)](https://star-history.com/#dmego/home.github.io&Date)
-
+持续整理个人技术实践、开源项目和产品作品。
