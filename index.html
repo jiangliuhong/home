@@ -1,26 +1,53 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jarome Studio | 个人技术工作室</title>
-<link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jarome Studio｜全栈工程与 AI 实践</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-<header class="header">
-<div class="logo">J ✦ Jarome Studio</div>
-<nav>
-<a href="index.html">首页</a><a href="about.html">关于我</a><a href="projects.html">项目成果</a><a href="products.html">产品</a><a href="articles.html">技术文章</a><a href="contact.html">联系我</a>
-</nav>
-</header>
-<section class="hero">
-<h1>你好，我是 <span>Jarome</span> 👋</h1>
-<h2>软件工程师 · 技术探索者 · AI 实践者</h2>
-<p>专注于企业级系统、数据平台、AI 应用以及个人产品探索，通过技术创造真实价值。</p>
-<a class="button" href="projects.html">查看我的作品</a>
-</section>
-<section class="section"><h2>技术方向</h2><div class="cards"><article>后端开发<br>Java / Kotlin / Spring Boot</article><article>数据平台<br>StarRocks / ETL / 数据治理</article><article>AI 应用<br>Agent / 自动化工具</article><article>云原生<br>Docker / Kubernetes</article></div></section>
-<section class="section"><h2>核心项目</h2><div class="cards"><article>personal-app-platform<br>通用后端平台</article><article>personal-app-duo<br>个人应用系列</article><article>P&L Forecast Platform<br>业务预测平台</article><article>AI Agent Toolkit<br>智能开发工具链</article></div></section>
-<footer>© Jarome Studio · ja_rome@163.com</footer>
+  <header class="header">
+    <div class="logo"><span class="logo-mark">J</span> ✦ Jarome Studio</div>
+    <nav>
+      <a class="active" href="index.html">首页</a><a href="about.html">关于我</a><a href="projects.html">技术项目</a><a href="products.html">我的应用</a><a href="articles.html">技术文章</a><a href="contact.html">联系我</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Full-stack engineer · AI builder</p>
+      <h1>把想法，做成<br><span>真正可用的产品。</span></h1>
+      <h2>全栈工程师 · 数据平台实践者 · AI 应用探索者</h2>
+      <p>从用户体验、前端交互到后端服务、数据基础设施与 AI 能力，持续用完整的工程视角解决真实问题。</p>
+      <a class="button" href="products.html">探索我的应用 <span>↗</span></a>
+    </div>
+    <div class="hero-visual">
+      <div class="visual-top"><span><i class="visual-dot"></i>BUILD / SHIP / LEARN</span><span>01</span></div>
+      <h3 class="visual-title">从产品构想到<br>稳定交付的全链路实践</h3>
+      <p class="visual-caption">Frontend · Backend · Data · AI</p>
+      <div class="visual-bar"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-heading center"><p class="eyebrow">What I do</p><h2>技术方向</h2><p>以全栈能力为主线，把产品、工程与智能化连接起来。</p></div>
+    <div class="cards">
+      <article><span class="number">01 / PRODUCT</span><h3>前端与体验</h3><p>Web 应用、响应式界面与清晰的交互体验。</p></article>
+      <article><span class="number">02 / SYSTEM</span><h3>后端与架构</h3><p>Java / Kotlin / Spring Boot，构建稳定可扩展的服务。</p></article>
+      <article><span class="number">03 / DATA</span><h3>数据平台</h3><p>数据工程、指标体系、分析平台与数据治理。</p></article>
+      <article><span class="number">04 / AI</span><h3>AI 应用</h3><p>Agent、自动化流程与 AI 驱动的工程效率提升。</p></article>
+    </div>
+  </section>
+
+  <section class="section apps">
+    <div class="section-heading"><p class="eyebrow">Selected work</p><h2>我的应用</h2><p>围绕个人生活与效率场景，持续打磨有温度、能落地的小产品。</p></div>
+    <div class="app-grid">
+      <article class="app-card warm"><p class="mini-label">Based on pi-web fork</p><h3>Pi Hub</h3><p>基于 pi-web fork 开发的本地 Web 工作台，让会话、项目文件与自动化任务在一个界面中持续运转。</p><a class="app-link" href="projects/pi-hub.html">查看产品详情 ↗</a></article>
+      <article class="app-card"><p class="mini-label">duo · WeChat mini program</p><h3>我们的事项</h3><p>给情侣的共享生活空间，记录日常、管理事项、保存回忆，也一起打理共同账单。</p><a class="app-link" href="projects/duo.html">查看产品详情 ↗</a></article>
+    </div>
+  </section>
+
+  <footer><p><strong>Jarome Studio</strong> · 全栈工程 · 数据平台 · AI 应用</p><p>© 2026 Jarome · ja_rome@163.com</p></footer>
 </body>
 </html>
